@@ -1,0 +1,61 @@
+{
+  "notebook": "08_Final_Integration_XAI_Dashboard_WITH_LLM_HITL",
+  "timestamp": "2026-10-19T11:40:50.950369",
+  "classifier": "ResNet50",
+  "demo_cases": [
+    {
+      "demo_case": "LOW-TRUST SAMPLE 1",
+      "image_index": 1060,
+      "reported_trust_group": "Low"
+    },
+    {
+      "demo_case": "LOW-TRUST SAMPLE 2",
+      "image_index": 820,
+      "reported_trust_group": "Low"
+    },
+    {
+      "demo_case": "LOW-TRUST SAMPLE 3",
+      "image_index": 786,
+      "reported_trust_group": "Low"
+    },
+    {
+      "demo_case": "HIGH-TRUST SAMPLE",
+      "image_index": 364,
+      "reported_trust_group": "High"
+    }
+  ],
+  "active_demo_case": "LOW-TRUST SAMPLE 1",
+  "active_image_index": 1060,
+  "four_case_comparison_csv": "/content/drive/MyDrive/XAI_Project/results/final_integration/four_trust_demo_comparison.csv",
+  "classes": [
+    "Apple Healthy",
+    "Apple Scab",
+    "Apple Black Rot",
+    "Apple Cedar Apple Rust"
+  ],
+  "gradcam_layer": "layer4[-1]",
+  "rag": true,
+  "llm": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "role": "grounded explanation only",
+    "live_demo_generated": true,
+    "notebook6_coverage": "30-sample demonstration/evaluation subset"
+  },
+  "human_in_the_loop": {
+    "enabled": true,
+    "decision": "accept",
+    "feedback_persisted": true,
+    "feedback_source": "annotator",
+    "model_retraining_from_feedback": false
+  },
+  "outputs": [
+    "/content/drive/MyDrive/XAI_Project/results/final_integration/latest_inference_result.json",
+    "/content/drive/MyDrive/XAI_Project/results/final_integration/latest_llm_explanation.json",
+    "/content/drive/MyDrive/XAI_Project/results/final_integration/latest_gradcam.png",
+    "/content/drive/MyDrive/XAI_Project/results/final_integration/latest_xai_hitl_dashboard.png",
+    "/content/drive/MyDrive/XAI_Project/results/human_feedback/feedback_records.csv",
+    "/content/drive/MyDrive/XAI_Project/results/human_feedback/feedback_records.jsonl",
+    "/content/drive/MyDrive/XAI_Project/results/human_feedback/feedback_memory.csv",
+    "/content/drive/MyDrive/XAI_Project/results/human_feedback/feedback_memory.jsonl"
+  ]
+}

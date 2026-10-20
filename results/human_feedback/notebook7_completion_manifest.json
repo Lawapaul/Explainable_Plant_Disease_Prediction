@@ -1,0 +1,87 @@
+{
+  "notebook": "07_Human_in_the_Loop_Feedback_Memory",
+  "status": "completed_partial_llm_coverage",
+  "completion_timestamp_utc": "2026-10-01T09:17:16.194139+00:00",
+  "input_sample_count": 1166,
+  "merged_sample_count": 1166,
+  "review_queue_count": 3,
+  "feedback_record_count": 3,
+  "memory_record_count": 3,
+  "llm_explanation_count": 30,
+  "llm_coverage_percent": 2.5728987993138936,
+  "llm_alignment_status": "partial_coverage",
+  "validation": {
+    "trust_report_exists": true,
+    "llm_source_exists": true,
+    "work_rows_equal_trust_rows": true,
+    "unique_image_indices": true,
+    "all_probability_sums_valid": true,
+    "review_queue_subset": true,
+    "feedback_unique_sample_ids": true,
+    "memory_unique_memory_ids": true,
+    "llm_coverage_recorded": true,
+    "llm_unknown_ids_excluded": true
+  },
+  "artifacts": {
+    "review_queue_csv": {
+      "path": "/content/drive/MyDrive/XAI_Project/results/human_feedback/human_review_queue.csv",
+      "exists": true,
+      "size_bytes": 1215
+    },
+    "review_queue_jsonl": {
+      "path": "/content/drive/MyDrive/XAI_Project/results/human_feedback/human_review_queue.jsonl",
+      "exists": true,
+      "size_bytes": 2661
+    },
+    "feedback_csv": {
+      "path": "/content/drive/MyDrive/XAI_Project/results/human_feedback/feedback_records.csv",
+      "exists": true,
+      "size_bytes": 943
+    },
+    "feedback_jsonl": {
+      "path": "/content/drive/MyDrive/XAI_Project/results/human_feedback/feedback_records.jsonl",
+      "exists": true,
+      "size_bytes": 1686
+    },
+    "memory_csv": {
+      "path": "/content/drive/MyDrive/XAI_Project/results/human_feedback/feedback_memory.csv",
+      "exists": true,
+      "size_bytes": 976
+    },
+    "memory_jsonl": {
+      "path": "/content/drive/MyDrive/XAI_Project/results/human_feedback/feedback_memory.jsonl",
+      "exists": true,
+      "size_bytes": 1723
+    },
+    "summary_json": {
+      "path": "/content/drive/MyDrive/XAI_Project/results/human_feedback/human_feedback_summary.json",
+      "exists": true,
+      "size_bytes": 361
+    },
+    "config_json": {
+      "path": "/content/drive/MyDrive/XAI_Project/results/human_feedback/human_feedback_config.json",
+      "exists": true,
+      "size_bytes": 2697
+    },
+    "manifest_json": {
+      "path": "/content/drive/MyDrive/XAI_Project/results/human_feedback/notebook7_completion_manifest.json",
+      "exists": true,
+      "size_bytes": 2406
+    },
+    "errors_jsonl": {
+      "path": "/content/drive/MyDrive/XAI_Project/results/human_feedback/errors.jsonl",
+      "exists": true,
+      "size_bytes": 0
+    },
+    "evaluation_json": {
+      "path": "/content/drive/MyDrive/XAI_Project/results/human_feedback/notebook7_evaluation_summary.json",
+      "exists": true,
+      "size_bytes": 955
+    },
+    "classification_metrics_csv": {
+      "path": "/content/drive/MyDrive/XAI_Project/results/human_feedback/notebook7_classification_metrics.csv",
+      "exists": true,
+      "size_bytes": 179
+    }
+  }
+}

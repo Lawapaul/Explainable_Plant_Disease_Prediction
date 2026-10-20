@@ -1,0 +1,29 @@
+{
+  "sample_id": "test_00022",
+  "predicted_label": 2,
+  "predicted_class": "Apple Black Rot",
+  "trust_score": 0.9943711156929044,
+  "gradcam_high_activation_area_percent": 14.692283163265309,
+  "llm_explanation": {
+    "summary": "The leaf shows signs consistent with Apple Black Rot.",
+    "prediction_explanation": "The classifier predicts Apple Black Rot with high confidence (Trust Score 0.994).",
+    "visual_evidence": "Grad-CAM identifies image regions that influenced the classifier prediction; it is not ground-truth disease localization.",
+    "knowledge_evidence": "Retrieved agricultural knowledge provides general information about the predicted and related classes; it does not establish image-specific symptoms.",
+    "uncertainty_note": "The leaf could also be affected by other diseases, but the strong prediction margin supports the classifier's decision.",
+    "human_review_recommendation": "Human review can be used to independently verify the classifier prediction when appropriate.",
+    "source_references": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "rag_sources_used": [
+    "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+    "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab"
+  ]
+}

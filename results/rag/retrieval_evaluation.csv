@@ -1,0 +1,9 @@
+query,expected_disease,first_relevant_rank,reciprocal_rank,hit_at_1,hit_at_3,hit_at_5
+What are the symptoms and appearance of apple scab on leaves?,Apple Scab,1,1.0,1,1,1
+What causes apple scab and how does the disease spread?,Apple Scab,1,1.0,1,1,1
+What are the symptoms of black rot on apple leaves?,Apple Black Rot,1,1.0,1,1,1
+How is apple black rot managed?,Apple Black Rot,1,1.0,1,1,1
+What does cedar apple rust look like on apple leaves?,Apple Cedar Apple Rust,1,1.0,1,1,1
+How does cedar apple rust spread and what are management approaches?,Apple Cedar Apple Rust,1,1.0,1,1,1
+What information describes the healthy reference class for apple leaves?,Apple Healthy,1,1.0,1,1,1
+How can healthy apple leaves be distinguished from disease symptoms?,Apple Healthy,1,1.0,1,1,1

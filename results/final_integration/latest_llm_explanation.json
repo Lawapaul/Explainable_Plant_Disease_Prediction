@@ -1,0 +1,12 @@
+{
+  "summary": "The model predicts the presence of Apple Scab with a moderate confidence level.",
+  "prediction_explanation": "The model's prediction of Apple Scab is based on the visual evidence provided by the image and the Grad-CAM analysis. The high activation area identified by Grad-CAM suggests that certain regions of the image are influencing the model's decision towards Apple Scab. However, the model's confidence is moderate, and there is a significant probability assigned to other diseases, indicating some uncertainty.",
+  "visual_evidence": "Grad-CAM highlights areas of the image that are likely contributing to the model's prediction. These areas could correspond to features such as leaf spots, which are characteristic of Apple Scab. However, without more detailed visual inspection, it is difficult to confirm the exact nature of these regions.",
+  "knowledge_evidence": "Apple Scab is known to cause olive-green to brown leaf spots that can darken over time. The presence of such spots in the image could be consistent with the model's prediction. However, other diseases like Black Rot and Cedar Apple Rust also exhibit similar symptoms, which explains the lower probabilities assigned to these classes.",
+  "uncertainty_note": "The model's confidence is moderate (0.4673), and the normalized entropy is relatively high (0.8396), indicating a lack of clear distinction between the classes. This suggests that the prediction should be treated with caution and further human review is recommended.",
+  "human_review_recommendation": "A human expert should review the image to confirm the diagnosis, especially given the low trust level and the need for human review indicated by the model metrics.",
+  "source_references": [
+    "1. Apple scab leaf spots are commonly olive-green to brown and can become dark brown to black as they age. Heavily affected leaves can yellow and drop.",
+    "2. Apple scab overwinters in infected fallen leaves. Spring spores can infect developing leaves, flowers, fruit, and twigs when moisture conditions are favorable."
+  ]
+}

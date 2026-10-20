@@ -1,0 +1,150 @@
+{
+  "Apple Healthy": [
+    {
+      "rank": 1,
+      "score": 0.64589524269104,
+      "title": "What's wrong with my plant? — Apples — Leaves — Spots on leaves",
+      "source": "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html",
+      "text": "Apple Healthy is the reference class used by this image-classification project for leaves that do not show the disease patterns represented by the three disease classes in the dataset. Disease diagnosis resources describe characteristic visual signs such as spots, discoloration, lesions, and other disease symptoms; the healthy class is therefore used as the non-diseased reference category for this project."
+    },
+    {
+      "rank": 2,
+      "score": 0.5870857238769531,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab leaf spots are commonly olive-green to brown, may have a velvet-like or fringed appearance, and can become dark brown to black as they age. Heavily affected leaves can yellow and drop. Fruit lesions can become brown and corky, and infections early in fruit development can cause deformation and cracking."
+    },
+    {
+      "rank": 3,
+      "score": 0.4792628288269043,
+      "title": "Cedar-apple rust and related rust diseases",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust",
+      "text": "On apple and crabapple, cedar-apple rust commonly produces leaf spots that are first yellow and later bright orange-red, often with a red border. Small raised black dots can occur in mature spots, and short finger-like fungal structures can develop on the underside of leaf spots."
+    },
+    {
+      "rank": 4,
+      "score": 0.4724430441856384,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab overwinters in infected fallen leaves. In spring, spores can be released and carried to developing leaves, flowers, fruit, and twigs. Moisture on plant surfaces supports infection, and secondary infection cycles can occur through the growing season when conditions are favorable."
+    },
+    {
+      "rank": 5,
+      "score": 0.46710240840911865,
+      "title": "What's wrong with my plant? — Apples — Leaves — Spots on leaves",
+      "source": "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html",
+      "text": "Black rot of apple is associated with Botryosphaeria obtusa. It can affect leaves, fruit, and branches."
+    }
+  ],
+  "Apple Scab": [
+    {
+      "rank": 1,
+      "score": 0.7355754375457764,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab overwinters in infected fallen leaves. In spring, spores can be released and carried to developing leaves, flowers, fruit, and twigs. Moisture on plant surfaces supports infection, and secondary infection cycles can occur through the growing season when conditions are favorable."
+    },
+    {
+      "rank": 2,
+      "score": 0.7283031940460205,
+      "title": "Apple Disease Control Toolbox — Fungicide Timing",
+      "source": "https://extension.psu.edu/apple-disease-control-toolbox-fungicide-timing",
+      "text": "Management of apple scab includes cultural practices that improve airflow and help leaves dry quickly, removal of infected fallen leaves where appropriate, use of disease-resistant varieties, and properly timed disease-control programs. Fungicide timing is important when fungicides are used."
+    },
+    {
+      "rank": 3,
+      "score": 0.7105851769447327,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab is a fungal disease caused by Venturia inaequalis. It affects apple and crabapple and can affect both leaves and fruit."
+    },
+    {
+      "rank": 4,
+      "score": 0.6517994403839111,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab leaf spots are commonly olive-green to brown, may have a velvet-like or fringed appearance, and can become dark brown to black as they age. Heavily affected leaves can yellow and drop. Fruit lesions can become brown and corky, and infections early in fruit development can cause deformation and cracking."
+    },
+    {
+      "rank": 5,
+      "score": 0.466096967458725,
+      "title": "What's wrong with my plant? — Apples — Leaves — Spots on leaves",
+      "source": "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html",
+      "text": "Black rot of apple is associated with Botryosphaeria obtusa. It can affect leaves, fruit, and branches."
+    }
+  ],
+  "Apple Black Rot": [
+    {
+      "rank": 1,
+      "score": 0.7573423385620117,
+      "title": "What's wrong with my plant? — Apples — Leaves — Spots on leaves",
+      "source": "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html",
+      "text": "Black rot of apple is associated with Botryosphaeria obtusa. It can affect leaves, fruit, and branches."
+    },
+    {
+      "rank": 2,
+      "score": 0.541178822517395,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab is a fungal disease caused by Venturia inaequalis. It affects apple and crabapple and can affect both leaves and fruit."
+    },
+    {
+      "rank": 3,
+      "score": 0.5397665500640869,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab overwinters in infected fallen leaves. In spring, spores can be released and carried to developing leaves, flowers, fruit, and twigs. Moisture on plant surfaces supports infection, and secondary infection cycles can occur through the growing season when conditions are favorable."
+    },
+    {
+      "rank": 4,
+      "score": 0.5285022258758545,
+      "title": "What's wrong with my plant? — Apples — Leaves — Spots on leaves",
+      "source": "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html",
+      "text": "Black rot can produce round leaf spots with a purple border and tan center. Fruit can develop large brown spots and rot while remaining relatively firm, and fruit can become mummified. Branch cankers may be sunken, reddish-brown, rough, or cracked. Leaves on girdled branches can wilt, die, and turn brown."
+    },
+    {
+      "rank": 5,
+      "score": 0.5284504294395447,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab leaf spots are commonly olive-green to brown, may have a velvet-like or fringed appearance, and can become dark brown to black as they age. Heavily affected leaves can yellow and drop. Fruit lesions can become brown and corky, and infections early in fruit development can cause deformation and cracking."
+    }
+  ],
+  "Apple Cedar Apple Rust": [
+    {
+      "rank": 1,
+      "score": 0.7084091901779175,
+      "title": "Cedar-apple rust and related rust diseases",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust",
+      "text": "Cedar-apple rust is caused by Gymnosporangium juniperi-virginianae and requires hosts from two plant families to complete its life cycle. Apple and crabapple are important hosts in the Rosaceae family, while eastern red cedar and junipers can serve as alternate hosts."
+    },
+    {
+      "rank": 2,
+      "score": 0.6833096146583557,
+      "title": "Cedar-apple rust and related rust diseases",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust",
+      "text": "Management guidance for cedar-apple rust includes using resistant apple varieties where suitable, reducing nearby alternate hosts when appropriate, and pruning infected material where recommended. Extension guidance should be consulted for local management decisions."
+    },
+    {
+      "rank": 3,
+      "score": 0.6690323352813721,
+      "title": "Cedar-apple rust and related rust diseases",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust",
+      "text": "Cedar-apple rust overwinters in galls on juniper or red cedar. In wet spring weather, these structures can release spores that are carried by wind to susceptible apple and other Rosaceae hosts. Wet leaves can support new infections."
+    },
+    {
+      "rank": 4,
+      "score": 0.6186841130256653,
+      "title": "Cedar-apple rust and related rust diseases",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust",
+      "text": "On apple and crabapple, cedar-apple rust commonly produces leaf spots that are first yellow and later bright orange-red, often with a red border. Small raised black dots can occur in mature spots, and short finger-like fungal structures can develop on the underside of leaf spots."
+    },
+    {
+      "rank": 5,
+      "score": 0.49347472190856934,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab overwinters in infected fallen leaves. In spring, spores can be released and carried to developing leaves, flowers, fruit, and twigs. Moisture on plant surfaces supports infection, and secondary infection cycles can occur through the growing season when conditions are favorable."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+case,sample_id,image_index,actual_class,predicted_class,confidence,entropy,margin,trust_score,trust_level,human_review_required,human_decision,corrected_class,feedback_persisted,saved_llm_explanation_available,gradcam_generated_dynamically
+LOW-TRUST SAMPLE 1,test_01060,1060,Apple Scab,Apple Scab,0.46855214,0.8391055033427791,0.20887971,0.3267196226660829,Low,True,accept,Apple Scab,True,True,True
+LOW-TRUST SAMPLE 2,test_00820,820,Apple Scab,Apple Scab,0.5544774,0.5332003062184031,0.1185801,0.4235836459891157,Low,True,accept,Apple Scab,True,True,True
+LOW-TRUST SAMPLE 3,test_00786,786,Apple Scab,Apple Scab,0.5586545,0.5612848581259862,0.13934305,0.4238417923106398,Low,True,accept,Apple Scab,True,True,True
+HIGH-TRUST SAMPLE,test_00364,364,Apple Scab,Apple Scab,1.0,5.979470363300325e-11,1.0,0.9999999999850512,High,False,NOT REQUIRED,,False,True,True

@@ -1,0 +1,26 @@
+{
+  "sample_id": "test_00008",
+  "predicted_label": 1,
+  "predicted_class": "Apple Scab",
+  "trust_score": 0.9999993096735516,
+  "gradcam_high_activation_area_percent": 17.097815688775512,
+  "llm_explanation": {
+    "summary": "The leaf shows signs of Apple Scab, indicated by the high trust score and strong prediction margin.",
+    "prediction_explanation": "The classifier predicts Apple Scab with a very high confidence level (trust score 0.999999).",
+    "visual_evidence": "Grad-CAM identifies image regions that influenced the classifier prediction; it is not ground-truth disease localization.",
+    "knowledge_evidence": "Retrieved agricultural knowledge provides general information about the predicted and related classes; it does not establish image-specific symptoms.",
+    "uncertainty_note": "The high prediction margin suggests a strong confidence but does not rule out other possibilities.",
+    "human_review_recommendation": "Human review can be used to independently verify the classifier prediction when appropriate.",
+    "source_references": [
+      1,
+      2
+    ]
+  },
+  "rag_sources_used": [
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+    "https://extension.psu.edu/apple-disease-control-toolbox-fungicide-timing",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+    "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html"
+  ]
+}

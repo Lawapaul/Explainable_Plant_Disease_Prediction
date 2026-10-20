@@ -1,0 +1,7 @@
+{
+  "source": "30_sample_subset",
+  "available_explanations": 30,
+  "total_test_samples": 1166,
+  "coverage_percent": 2.5728987993138936,
+  "full_coverage": false
+}

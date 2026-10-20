@@ -1,0 +1,18 @@
+{
+  "total_feedback_records": 3,
+  "accepted_count": 2,
+  "corrected_count": 1,
+  "rejected_count": 0,
+  "feedback_source_counts": {
+    "simulated": 3
+  },
+  "decision_counts": {
+    "accept": 2,
+    "correct": 1
+  },
+  "corrected_class_counts": {
+    "Apple Scab": 2,
+    "Apple Healthy": 1
+  },
+  "memory_created_at_utc": "2026-10-01T09:17:02.848138+00:00"
+}

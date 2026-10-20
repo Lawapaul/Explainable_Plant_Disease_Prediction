@@ -1,0 +1,40 @@
+{
+    "model": "ResNet50",
+    "checkpoint": "/content/drive/MyDrive/XAI_Project/saved_models/best_overall_model.pt",
+    "target_layer": "model.layer4[-1]",
+    "num_classes": 4,
+    "class_names": [
+        "Apple Healthy",
+        "Apple Scab",
+        "Apple Black Rot",
+        "Apple Cedar Apple Rust"
+    ],
+    "input_size": [
+        224,
+        224
+    ],
+    "normalization": {
+        "mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "std": [
+            0.229,
+            0.224,
+            0.225
+        ]
+    },
+    "overlay_alpha": 0.45,
+    "outputs": {
+        "heatmaps": "/content/drive/MyDrive/XAI_Project/results/gradcam/heatmaps",
+        "overlays": "/content/drive/MyDrive/XAI_Project/results/gradcam/overlays",
+        "prediction_report": "/content/drive/MyDrive/XAI_Project/results/gradcam_prediction_report.csv"
+    },
+    "dataset": {
+        "name": "PlantVillage",
+        "subset": "Apple",
+        "total_images": 7771,
+        "test_images_processed_for_gradcam": 1166
+    }
+}

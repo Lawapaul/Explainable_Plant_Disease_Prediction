@@ -1,0 +1,68 @@
+{
+  "sample_id": "test_00786",
+  "image_index": 786,
+  "predicted_label": 1,
+  "predicted_class": "Apple Scab",
+  "trust_score": 0.4238417923106398,
+  "gradcam_high_activation_area_percent": 2.965561224489796,
+  "rag_evidence": [
+    {
+      "rank": 1,
+      "score": 0.7355754375457764,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab overwinters in infected fallen leaves. In spring, spores can be released and carried to developing leaves, flowers, fruit, and twigs. Moisture on plant surfaces supports infection, and secondary infection cycles can occur through the growing season when conditions are favorable."
+    },
+    {
+      "rank": 2,
+      "score": 0.7283031940460205,
+      "title": "Apple Disease Control Toolbox — Fungicide Timing",
+      "source": "https://extension.psu.edu/apple-disease-control-toolbox-fungicide-timing",
+      "text": "Management of apple scab includes cultural practices that improve airflow and help leaves dry quickly, removal of infected fallen leaves where appropriate, use of disease-resistant varieties, and properly timed disease-control programs. Fungicide timing is important when fungicides are used."
+    },
+    {
+      "rank": 3,
+      "score": 0.7105851769447327,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab is a fungal disease caused by Venturia inaequalis. It affects apple and crabapple and can affect both leaves and fruit."
+    },
+    {
+      "rank": 4,
+      "score": 0.6517994403839111,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab leaf spots are commonly olive-green to brown, may have a velvet-like or fringed appearance, and can become dark brown to black as they age. Heavily affected leaves can yellow and drop. Fruit lesions can become brown and corky, and infections early in fruit development can cause deformation and cracking."
+    },
+    {
+      "rank": 5,
+      "score": 0.466096967458725,
+      "title": "What's wrong with my plant? — Apples — Leaves — Spots on leaves",
+      "source": "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html",
+      "text": "Black rot of apple is associated with Botryosphaeria obtusa. It can affect leaves, fruit, and branches."
+    }
+  ],
+  "rag_sources_used": [
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+    "https://extension.psu.edu/apple-disease-control-toolbox-fungicide-timing",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+    "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html"
+  ],
+  "llm_explanation": {
+    "summary": "The classifier predicts Apple Scab based on high probabilities.",
+    "prediction_explanation": "The model's highest probability (55.87%) indicates a strong likelihood of Apple Scab.",
+    "visual_evidence": "Grad-CAM identifies regions that influenced the classifier; it is not ground-truth disease localization.",
+    "knowledge_evidence": "Retrieved agricultural knowledge is general information and does not establish image-specific symptoms.",
+    "uncertainty_note": "Trust score of 0.42 suggests moderate confidence in the prediction.",
+    "human_review_recommendation": "Human review can independently verify the classifier prediction when appropriate.",
+    "source_references": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "prepared_for": "four_sample_hitl_demo"
+}

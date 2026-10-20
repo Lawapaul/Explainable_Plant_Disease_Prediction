@@ -1,0 +1,17 @@
+{
+    "project": "Explainable Apple Plant Disease Detection",
+    "knowledge_scope": [
+        "Apple Healthy",
+        "Apple Scab",
+        "Apple Black Rot",
+        "Apple Cedar Apple Rust"
+    ],
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_dimension": 384,
+    "chunk_size_words": 120,
+    "chunk_overlap_words": 30,
+    "vector_index": "FAISS IndexFlatIP",
+    "similarity": "cosine similarity via normalized inner product",
+    "default_top_k": 5,
+    "llm_used_in_this_notebook": false
+}

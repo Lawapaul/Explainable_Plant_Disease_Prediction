@@ -1,0 +1,5 @@
+class_id,class,precision,recall,f1,support
+0,Apple Healthy,1.0,1.0,1.0,302
+1,Apple Scab,1.0,1.0,1.0,302
+2,Apple Black Rot,1.0,1.0,1.0,298
+3,Apple Cedar Apple Rust,1.0,1.0,1.0,264

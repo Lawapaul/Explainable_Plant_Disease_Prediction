@@ -1,0 +1,59 @@
+{
+    "project": "Explainable Apple Plant Disease Detection",
+    "model": "ResNet50",
+    "checkpoint": "/content/drive/MyDrive/XAI_Project/saved_models/best_overall_model.pt",
+    "num_classes": 4,
+    "class_mapping": {
+        "0": "Apple Healthy",
+        "1": "Apple Scab",
+        "2": "Apple Black Rot",
+        "3": "Apple Cedar Apple Rust"
+    },
+    "input_shape_chw": [
+        3,
+        224,
+        224
+    ],
+    "normalization": {
+        "mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "std": [
+            0.229,
+            0.224,
+            0.225
+        ]
+    },
+    "uncertainty": {
+        "predictive_entropy": "H(p) / log(num_classes)",
+        "margin": "top1_probability - top2_probability",
+        "margin_uncertainty": "1 - margin"
+    },
+    "calibration": {
+        "method": "validation confidence-bin empirical accuracy",
+        "number_of_bins": 10,
+        "validation_ece": 0.0008696577356773626,
+        "test_ece": 0.0019021384149636453
+    },
+    "trust_score": {
+        "formula": "0.50 * calibrated_confidence + 0.25 * (1 - normalized_entropy) + 0.25 * margin",
+        "weights": {
+            "calibrated_confidence": 0.5,
+            "entropy_reliability": 0.25,
+            "margin_reliability": 0.25
+        },
+        "levels": {
+            "high": ">= 0.80",
+            "medium": ">= 0.60 and < 0.80",
+            "low": "< 0.60"
+        }
+    },
+    "gradcam": {
+        "used_as_ground_truth": false,
+        "iou_used": false,
+        "bounding_boxes_used": false,
+        "note": "Grad-CAM is treated as an explanation/descriptive signal, not localization ground truth."
+    }
+}

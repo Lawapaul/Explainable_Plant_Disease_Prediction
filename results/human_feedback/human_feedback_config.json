@@ -1,0 +1,55 @@
+{
+  "notebook": "07_Human_in_the_Loop_Feedback_Memory",
+  "created_at_utc": "2026-10-01T09:17:14.607780+00:00",
+  "project": "Apple Plant Disease XAI",
+  "class_mapping": {
+    "0": "Apple Healthy",
+    "1": "Apple Scab",
+    "2": "Apple Black Rot",
+    "3": "Apple Cedar Apple Rust"
+  },
+  "num_classes": 4,
+  "model_input_shape": [
+    3,
+    224,
+    224
+  ],
+  "stable_sample_identifier": "image_index",
+  "notebook4_test_samples": 1166,
+  "notebook6_output_type": "partial_30_samples",
+  "notebook6_samples_loaded": 30,
+  "llm_matching_samples": 30,
+  "llm_coverage_percent": 2.5728987993138936,
+  "llm_alignment_status": "partial_coverage",
+  "review_policy": {
+    "trust_review_threshold": 0.7,
+    "confidence_review_threshold": 0.8,
+    "entropy_review_threshold": 0.5,
+    "margin_review_threshold": 0.2,
+    "review_if_any_condition": true
+  },
+  "demo_feedback": {
+    "enabled": true,
+    "count": 5,
+    "explicitly_marked_as_simulated": true
+  },
+  "input_artifacts": {
+    "trust_report": "/content/drive/MyDrive/XAI_Project/results/trust_uncertainty/trust_uncertainty_test_report.csv",
+    "llm_csv": "/content/drive/MyDrive/XAI_Project/results/llm_explanations/llm_30_samples/llm_explanations_30_samples.csv",
+    "llm_jsonl": "/content/drive/MyDrive/XAI_Project/results/llm_explanations/llm_30_samples/llm_explanations_30_samples.jsonl"
+  },
+  "output_artifacts": {
+    "review_queue_csv": "/content/drive/MyDrive/XAI_Project/results/human_feedback/human_review_queue.csv",
+    "review_queue_jsonl": "/content/drive/MyDrive/XAI_Project/results/human_feedback/human_review_queue.jsonl",
+    "feedback_csv": "/content/drive/MyDrive/XAI_Project/results/human_feedback/feedback_records.csv",
+    "feedback_jsonl": "/content/drive/MyDrive/XAI_Project/results/human_feedback/feedback_records.jsonl",
+    "memory_csv": "/content/drive/MyDrive/XAI_Project/results/human_feedback/feedback_memory.csv",
+    "memory_jsonl": "/content/drive/MyDrive/XAI_Project/results/human_feedback/feedback_memory.jsonl",
+    "summary_json": "/content/drive/MyDrive/XAI_Project/results/human_feedback/human_feedback_summary.json",
+    "config_json": "/content/drive/MyDrive/XAI_Project/results/human_feedback/human_feedback_config.json",
+    "manifest_json": "/content/drive/MyDrive/XAI_Project/results/human_feedback/notebook7_completion_manifest.json",
+    "errors_jsonl": "/content/drive/MyDrive/XAI_Project/results/human_feedback/errors.jsonl",
+    "evaluation_json": "/content/drive/MyDrive/XAI_Project/results/human_feedback/notebook7_evaluation_summary.json",
+    "classification_metrics_csv": "/content/drive/MyDrive/XAI_Project/results/human_feedback/notebook7_classification_metrics.csv"
+  }
+}

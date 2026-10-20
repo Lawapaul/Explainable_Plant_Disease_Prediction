@@ -1,0 +1,66 @@
+{
+  "notebook": "06_Final_LLM_30_Samples_Qwen_RAG",
+  "project": "Explainable Apple Plant Disease Detection",
+  "created_at": "2026-10-01T08:07:53.939116",
+  "classifier": "ResNet50",
+  "num_classes": 4,
+  "class_names": {
+    "0": "Apple Healthy",
+    "1": "Apple Scab",
+    "2": "Apple Black Rot",
+    "3": "Apple Cedar Apple Rust"
+  },
+  "input_shape": [
+    3,
+    224,
+    224
+  ],
+  "trust_score_used": true,
+  "trust_score_role": "Model reliability and uncertainty signal",
+  "gradcam_used": true,
+  "gradcam_target_layer": "model.layer4[-1]",
+  "gradcam_role": "Model-attention evidence, not ground-truth localization",
+  "rag_used": true,
+  "rag_top_k": 5,
+  "rag_index": "apple_disease_faiss.index",
+  "rag_metadata": "knowledge_chunks.csv",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "llm_model": "Qwen/Qwen2.5-3B-Instruct",
+  "quantization": "4-bit NF4",
+  "max_new_tokens": 160,
+  "retry_max_new_tokens": 180,
+  "do_sample": false,
+  "num_beams": 1,
+  "llm_evaluation_samples": 30,
+  "sampling_strategy": "Balanced class sampling",
+  "sample_distribution": {
+    "Apple Healthy": 8,
+    "Apple Scab": 8,
+    "Apple Black Rot": 7,
+    "Apple Cedar Apple Rust": 7
+  },
+  "json_fields": [
+    "summary",
+    "prediction_explanation",
+    "visual_evidence",
+    "knowledge_evidence",
+    "uncertainty_note",
+    "human_review_recommendation",
+    "source_references"
+  ],
+  "retry_enabled": true,
+  "max_retries": 1,
+  "immediate_per_sample_saving": true,
+  "resumable_inference": true,
+  "grounding_rules": [
+    "LLM does not change classifier prediction",
+    "LLM does not provide confirmed diagnosis",
+    "Grad-CAM is not ground-truth localization",
+    "RAG knowledge is general knowledge",
+    "RAG knowledge is not proof of image-specific symptoms",
+    "Trust score is not biological certainty",
+    "Human review recommendation is neutral",
+    "Source references are derived from actual RAG retrieval"
+  ]
+}

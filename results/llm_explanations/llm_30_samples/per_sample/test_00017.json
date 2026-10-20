@@ -1,0 +1,26 @@
+{
+  "sample_id": "test_00017",
+  "predicted_label": 0,
+  "predicted_class": "Apple Healthy",
+  "trust_score": 0.9999982901524472,
+  "gradcam_high_activation_area_percent": 16.101323341836736,
+  "llm_explanation": {
+    "summary": "The classifier predicts the leaf is healthy with high confidence.",
+    "prediction_explanation": "The classifier predicts Apple Healthy with a trust score of 0.999998, indicating strong confidence.",
+    "visual_evidence": "Grad-CAM identifies image regions that influenced the classifier prediction; it is not ground-truth disease localization.",
+    "knowledge_evidence": "Retrieved agricultural knowledge provides general information about the predicted and related classes; it does not establish image-specific symptoms.",
+    "uncertainty_note": "The leaf appears healthy according to the classifier's high confidence score.",
+    "human_review_recommendation": "Human review can be used to independently verify the classifier prediction when appropriate.",
+    "source_references": [
+      1,
+      2
+    ]
+  },
+  "rag_sources_used": [
+    "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+    "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html"
+  ]
+}

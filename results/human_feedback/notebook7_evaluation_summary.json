@@ -1,0 +1,46 @@
+{
+  "total_samples": 1166,
+  "valid_label_samples": 1166,
+  "model_accuracy": 1.0,
+  "review_queue_count": 3,
+  "review_queue_percentage": 0.25728987993138935,
+  "llm_available_count": 30,
+  "llm_missing_count": 1136,
+  "llm_coverage_percent": 2.5728987993138936,
+  "feedback_record_count": 3,
+  "memory_record_count": 3,
+  "per_class_metrics": [
+    {
+      "class_id": 0,
+      "class": "Apple Healthy",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 302
+    },
+    {
+      "class_id": 1,
+      "class": "Apple Scab",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 302
+    },
+    {
+      "class_id": 2,
+      "class": "Apple Black Rot",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 298
+    },
+    {
+      "class_id": 3,
+      "class": "Apple Cedar Apple Rust",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 264
+    }
+  ]
+}

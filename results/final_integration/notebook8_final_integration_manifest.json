@@ -1,0 +1,53 @@
+{
+  "project": "Explainable AI for Apple Plant Disease Detection",
+  "notebook": "Notebook 8 — Final Integration + Interactive XAI Dashboard",
+  "generated_at_utc": "2026-10-08T06:05:59.892813+00:00",
+  "architecture": [
+    "ResNet50 image classifier",
+    "Trust and uncertainty estimation",
+    "Grad-CAM visual explanation",
+    "RAG knowledge retrieval",
+    "Qwen grounded explanation subset",
+    "Human-in-the-loop review",
+    "Persistent feedback memory"
+  ],
+  "dataset": {
+    "test_samples": 1166,
+    "num_classes": 4,
+    "classes": {
+      "0": "Apple Healthy",
+      "1": "Apple Scab",
+      "2": "Apple Black Rot",
+      "3": "Apple Cedar Apple Rust"
+    }
+  },
+  "llm": {
+    "source": "30_sample_subset",
+    "available_samples": 30,
+    "coverage_percent": 2.5728987993138936,
+    "note": "Qwen explanations are intentionally limited to the existing 30-sample evaluation subset; no fabricated LLM explanation is generated for missing samples."
+  },
+  "outputs_directory": "/content/drive/MyDrive/XAI_Project/results/final_integration",
+  "files": [
+    "confusion_matrix.csv",
+    "confusion_matrix.png",
+    "entropy_distribution.png",
+    "final_classification_metrics.csv",
+    "final_integrated_results.csv",
+    "final_pipeline_status.json",
+    "human_feedback_summary_final.json",
+    "latest_gradcam.png",
+    "latest_inference_result.json",
+    "latest_llm_explanation.json",
+    "latest_uploaded_image.png",
+    "latest_xai_hitl_dashboard.png",
+    "llm_coverage_summary.json",
+    "model_performance_summary.json",
+    "notebook8_final_integration_manifest.json",
+    "notebook8_final_manifest.json",
+    "rag_summary.json",
+    "representative_xai_cases.csv",
+    "trust_score_distribution.png",
+    "trust_uncertainty_summary.json"
+  ]
+}

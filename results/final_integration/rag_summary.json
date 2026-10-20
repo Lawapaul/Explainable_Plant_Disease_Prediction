@@ -1,0 +1,6 @@
+{
+  "knowledge_chunks": 12,
+  "knowledge_documents": 12,
+  "retrieval_evaluation_rows": 8,
+  "example_retrieval_rows": 12
+}

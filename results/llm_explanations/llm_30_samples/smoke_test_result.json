@@ -1,0 +1,63 @@
+{
+  "sample_id": "test_00006",
+  "predicted_label": 0,
+  "predicted_class": "Apple Healthy",
+  "trust_score": 0.9998639943130448,
+  "trust_level": "High",
+  "gradcam_high_activation_area_percent": 15.206473214285715,
+  "classifier_probabilities": {
+    "Apple Healthy": 0.9999461,
+    "Apple Scab": 5.972513e-06,
+    "Apple Black Rot": 3.521984e-05,
+    "Apple Cedar Apple Rust": 1.2758846e-05
+  },
+  "rag_evidence": [
+    {
+      "rank": 1,
+      "score": 0.64589524269104,
+      "title": "What's wrong with my plant? — Apples — Leaves — Spots on leaves",
+      "source": "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html",
+      "text": "Apple Healthy is the reference class used by this image-classification project for leaves that do not show the disease patterns represented by the three disease classes in the dataset. Disease diagnosis resources describe characteristic visual signs such as spots, discoloration, lesions, and other disease symptoms; the healthy class is therefore used as the non-diseased reference category for this project."
+    },
+    {
+      "rank": 2,
+      "score": 0.5870857238769531,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab leaf spots are commonly olive-green to brown, may have a velvet-like or fringed appearance, and can become dark brown to black as they age. Heavily affected leaves can yellow and drop. Fruit lesions can become brown and corky, and infections early in fruit development can cause deformation and cracking."
+    },
+    {
+      "rank": 3,
+      "score": 0.4792628288269043,
+      "title": "Cedar-apple rust and related rust diseases",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust",
+      "text": "On apple and crabapple, cedar-apple rust commonly produces leaf spots that are first yellow and later bright orange-red, often with a red border. Small raised black dots can occur in mature spots, and short finger-like fungal structures can develop on the underside of leaf spots."
+    },
+    {
+      "rank": 4,
+      "score": 0.4724430441856384,
+      "title": "Apple scab of apples and crabapples",
+      "source": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab",
+      "text": "Apple scab overwinters in infected fallen leaves. In spring, spores can be released and carried to developing leaves, flowers, fruit, and twigs. Moisture on plant surfaces supports infection, and secondary infection cycles can occur through the growing season when conditions are favorable."
+    },
+    {
+      "rank": 5,
+      "score": 0.46710240840911865,
+      "title": "What's wrong with my plant? — Apples — Leaves — Spots on leaves",
+      "source": "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html",
+      "text": "Black rot of apple is associated with Botryosphaeria obtusa. It can affect leaves, fruit, and branches."
+    }
+  ],
+  "llm_explanation": {
+    "summary": "The classifier predicts the leaf is healthy with high confidence.",
+    "prediction_explanation": "The classifier predicts the leaf is healthy based on its strong separation from diseased classes (scab, black rot, cedar-apple rust) with a trust score of 0.999864.",
+    "visual_evidence": "Grad-CAM highlights indicate no specific symptoms.",
+    "knowledge_evidence": "Apple scab, black rot, and cedar-apple rust are characterized by distinct visual signs, but the leaf does not show these symptoms.",
+    "uncertainty_note": "The leaf is classified as healthy with a large prediction margin (trust score 0.999864).",
+    "human_review_recommendation": "A human review would confirm the classifier's prediction.",
+    "source_references": [
+      1,
+      2
+    ]
+  }
+}

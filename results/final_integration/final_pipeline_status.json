@@ -1,0 +1,13 @@
+{
+  "resnet50_model_artifact_found": true,
+  "trust_report_available": true,
+  "gradcam_report_available": true,
+  "rag_knowledge_available": true,
+  "rag_evaluation_available": true,
+  "llm_source": "30_sample_subset",
+  "llm_explanations_available": 30,
+  "total_test_samples": 1166,
+  "llm_coverage_percent": 2.5728987993138936,
+  "human_review_queue_available": true,
+  "feedback_records_available": true
+}

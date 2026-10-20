@@ -1,0 +1,27 @@
+{
+    "umn_apple_scab": {
+        "organization": "University of Minnesota Extension",
+        "title": "Apple scab of apples and crabapples",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab"
+    },
+    "umn_apple_leaf_diagnosis": {
+        "organization": "University of Minnesota Extension",
+        "title": "What's wrong with my plant? \u2014 Apples \u2014 Leaves \u2014 Spots on leaves",
+        "url": "https://apps.extension.umn.edu/garden/diagnose/plant/fruit/apple/leavesspots.html"
+    },
+    "umn_cedar_rust": {
+        "organization": "University of Minnesota Extension",
+        "title": "Cedar-apple rust and related rust diseases",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust"
+    },
+    "psu_disease_control": {
+        "organization": "Penn State Extension",
+        "title": "Apple Disease Control Toolbox \u2014 Fungicide Timing",
+        "url": "https://extension.psu.edu/apple-disease-control-toolbox-fungicide-timing"
+    },
+    "psu_scab_review": {
+        "organization": "Penn State Extension",
+        "title": "Tree Fruit Disease \u2014 An Apple Scab Review",
+        "url": "https://extension.psu.edu/tree-fruit-disease-an-apple-scab-review"
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "sample_id": "test_00005",
+  "predicted_label": 3,
+  "predicted_class": "Apple Cedar Apple Rust",
+  "trust_score": 0.9998541241734678,
+  "gradcam_high_activation_area_percent": 9.85530931122449,
+  "llm_explanation": {
+    "summary": "The leaf shows signs consistent with Apple Cedar Apple Rust.",
+    "prediction_explanation": "The classifier predicts Apple Cedar Apple Rust with high confidence (trust score 0.999854).",
+    "visual_evidence": "Grad-CAM identifies image regions that influenced the classifier prediction; it is not ground-truth disease localization.",
+    "knowledge_evidence": "Retrieved agricultural knowledge provides general information about the predicted and related classes; it does not establish image-specific symptoms.",
+    "uncertainty_note": "The prediction has a large margin over the next highest probability (0.000054).",
+    "human_review_recommendation": "Human review can be used to independently verify the classifier prediction when appropriate.",
+    "source_references": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "rag_sources_used": [
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab"
+  ]
+}

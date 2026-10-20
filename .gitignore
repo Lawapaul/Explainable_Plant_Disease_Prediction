@@ -1,0 +1,39 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local data and model weights (large; download or provide separately)
+data/
+saved_models/
+*.pt
+*.pth
+*.ckpt
+
+# Generated per-image Grad-CAM artifacts (retain aggregate visualizations)
+results/gradcam/heatmaps/
+results/gradcam/overlays/
+
+# Private / raw human feedback records
+results/human_feedback/feedback_records.*
+results/human_feedback/feedback_memory.*
+results/human_feedback/human_review_queue.*
+results/human_feedback/errors.jsonl
+results/human_feedback/*.xlsx
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.log
